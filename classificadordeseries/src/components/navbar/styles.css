@@ -1,0 +1,9 @@
+.main-navbar{
+    position: relative;
+    width: 100%;
+    z-index: 150;
+    overflow: hidden;
+    position: fixed; 
+    top: 0; 
+    width: 100%; 
+}
