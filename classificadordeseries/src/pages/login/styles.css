@@ -1,0 +1,13 @@
+.fonte h1{
+    font-family: "Bebas";
+    font-size: 72px;
+    padding:0px;
+}
+
+@font-face {
+    font-family: "Bebas";
+    src: url("../../images/Bebas-Regular.otf");
+    src: 
+    url("../../images/Bebas-Regular.ttf") format("truetype"),
+    url("../../images/Bebas-Regular.otf") format("opentype"),
+}

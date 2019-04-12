@@ -5,5 +5,16 @@
     overflow: hidden;
     position: fixed; 
     top: 0; 
-    width: 100%; 
+    width: 100%;
+    font-family: "Bebas";
 }
+
+@font-face {
+    font-family: "Bebas";
+    src: url("../../images/Bebas-Regular.otf");
+    src: 
+    url("../../images/Bebas-Regular.ttf") format("truetype"),
+    url("../../images/Bebas-Regular.otf") format("opentype"),
+}
+    
+    

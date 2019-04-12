@@ -1,28 +1,86 @@
-.carousel {
-    height: 100%;
-    width: 100%;
+/* .livros {
     background-color: #343a40!important;
-    position: absolute;
-    text-align: center;
-    align-content: center;
-    align-items: center;
-    justify-content: center;
-    justify-items: center;
+} */
+
+.livros {
+    padding-top: 50px;
+    stop-opacity: unset;
+
 }
 
 .card-book {
     height: 500px;
-    margin-top: 7%;
+    width: 100%;
+    /* margin-top: 7%;
+    margin-left: 15%;
+    margin-right: 15%; */
     display: flex;
     padding: 10px;
+    background-color: #835f4d94;
+    /* background-color: #dddfe094; */
+    /* border: 1px solid #E7E7E7; */
+    /* opacity: 0.5; */
 }
 
+.btn-update .btn-outline-primary {
+    color: #000000;
+    border-color: #000000;
+}
+
+.btn-update .btn {
+    background-color: #E7E7E7;
+}
+
+.btn-update .btn:hover {
+    background-color: rgb(189, 189, 189);
+}
+
+.card-book {
+    color: white;
+}
 
 .image-slide{
     height: 300px;
     width: 250px;
-    margin: 20px;
-    margin-left: 20%;
-    margin-right: 10%;
+    margin-top: 10%;
+    margin-left: 35%;
     background-color: black;
-} 
+}
+
+.content-book {
+    margin-top: 2%;
+    text-align: center;
+    align-content: center;
+    align-items: center;
+    justify-content: center;
+    justify-items: center;    
+}
+
+.style {
+    background-color: #f8f9fa!important;
+    border-top: 1px solid #E7E7E7;
+    text-align: center;
+    padding: 20px;
+    position: fixed;
+    left: 0;
+    bottom:0;
+    height: 60px;
+    width:100%;
+    padding-bottom: 70px;
+    z-index: 150;
+}
+.phantom {
+  display: block;
+  padding: 20px;
+  height: 60px;
+  width: 100%;
+  
+}
+
+.cbook {
+    margin-left: 30px; 
+}
+/* 
+.carousel-indicators li {
+    background-color: #000;
+} */
